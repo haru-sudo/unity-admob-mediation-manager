@@ -1,0 +1,6 @@
+# Editor and OS clutter
+.DS_Store
+Thumbs.db
+.idea/
+.vs/
+*.swp

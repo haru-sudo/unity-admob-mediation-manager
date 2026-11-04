@@ -1,0 +1,21 @@
+{
+  "name": "com.hal-jp.admob-mediation-manager",
+  "version": "1.0.0",
+  "displayName": "AdMob Mediation Manager",
+  "description": "An Editor window for managing Google Mobile Ads (AdMob) mediation adapters in Unity: install, update and remove adapters from OpenUPM, edit the AdMob App IDs, and check the integration status in one place.",
+  "unity": "2021.3",
+  "keywords": [
+    "admob",
+    "google-mobile-ads",
+    "mediation",
+    "ads",
+    "editor"
+  ],
+  "author": {
+    "name": "HAL-JP"
+  },
+  "license": "MIT",
+  "documentationUrl": "https://github.com/haru-sudo/unity-admob-mediation-manager#readme",
+  "changelogUrl": "https://github.com/haru-sudo/unity-admob-mediation-manager/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/haru-sudo/unity-admob-mediation-manager/blob/main/LICENSE"
+}

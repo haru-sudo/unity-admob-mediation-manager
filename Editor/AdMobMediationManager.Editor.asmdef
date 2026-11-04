@@ -1,0 +1,18 @@
+{
+    "name": "AdMobMediationManager.Editor",
+    "rootNamespace": "AdMobMediationManager.Editor",
+    "references": [
+        "AdMobMediationManager"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
