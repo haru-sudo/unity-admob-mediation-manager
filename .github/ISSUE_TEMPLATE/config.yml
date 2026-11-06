@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Usage guide / 使い方
+    url: https://github.com/haru-sudo/unity-admob-mediation-manager#readme
+    about: Check the README and its Troubleshooting section first. / まず README を確認してください。
+  - name: Google Mobile Ads Unity plugin issues
+    url: https://github.com/googleads/googleads-mobile-unity/issues
+    about: Problems with the Google plugin or an adapter itself belong to Google, not this tool.

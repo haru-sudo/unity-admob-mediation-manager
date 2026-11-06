@@ -1,0 +1,76 @@
+name: Bug report / 不具合報告
+description: Something in AdMob Mediation Manager does not work as expected.
+title: "[Bug] "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. English or Japanese is fine. / 日本語でも大丈夫です。
+
+        > [!WARNING]
+        > Do **not** paste your real App IDs, ad unit IDs, API keys or account details.
+        > 本物の App ID・広告ユニット ID・API キーは貼らないでください。
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened? / 何が起きたか
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 再現手順
+      placeholder: |
+        1. Open Tools > AdMob Mediation Manager
+        2. Go to the Networks tab
+        3. Click Install on ...
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: Integration Status report / レポート
+      description: Integration Status tab > **Copy report**, then paste here. It never contains your IDs.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: console
+    attributes:
+      label: Console errors / コンソールのエラー
+      description: Full error text and stack trace, if any.
+      render: text
+  - type: input
+    id: unity-version
+    attributes:
+      label: Unity version
+      placeholder: "6000.0.23f1"
+    validations:
+      required: true
+  - type: input
+    id: package-version
+    attributes:
+      label: AdMob Mediation Manager version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Build target / ビルド対象
+      multiple: true
+      options:
+        - Android
+        - iOS
+        - Editor only
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and this is not a duplicate.
+          required: true
+        - label: I removed any real App IDs, ad unit IDs and other private data.
+          required: true

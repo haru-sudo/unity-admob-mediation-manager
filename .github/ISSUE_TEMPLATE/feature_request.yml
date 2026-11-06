@@ -1,0 +1,33 @@
+name: Feature request / 機能の提案
+description: Suggest a new feature or an improvement.
+title: "[Feature] "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: English or Japanese is fine. / 日本語でも大丈夫です。
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / 困っていること
+      description: What are you trying to do, and what gets in the way today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution / 提案
+      description: How should it work? Mockups or examples welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered / 他の案
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and this is not a duplicate.
+          required: true

@@ -1,0 +1,34 @@
+name: Mediation network request / ネットワーク追加の依頼
+description: Ask for a mediation adapter to be added to the Networks list.
+title: "[Network] "
+labels: ["network", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Only adapters that Google publishes for the Google Mobile Ads Unity plugin on OpenUPM can be added.
+        OpenUPM で公開されている Google 公式のアダプタだけが対象です。
+  - type: input
+    id: network
+    attributes:
+      label: Network name / ネットワーク名
+      placeholder: "e.g. Example Ads"
+    validations:
+      required: true
+  - type: input
+    id: openupm
+    attributes:
+      label: OpenUPM package name
+      placeholder: "com.google.ads.mobile.mediation.example"
+    validations:
+      required: true
+  - type: input
+    id: docs
+    attributes:
+      label: Google's integration guide URL
+      placeholder: "https://developers.google.com/admob/unity/mediation/..."
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / 補足
+      description: Extra setup the network needs (e.g. app keys, SKAdNetwork IDs).
